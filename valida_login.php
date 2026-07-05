@@ -20,7 +20,6 @@
     if ($resultado->num_rows == 1) {
 
         $usuario = $resultado->fetch_assoc();
-        echo 'console.log("cade oce poq nao trabaia")';
 
         if(password_verify($senha_digitada,$usuario["senha"])){
 

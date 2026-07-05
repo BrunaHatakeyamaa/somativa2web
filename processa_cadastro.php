@@ -23,12 +23,15 @@
             $stmt->bind_param("ssssssi",$nome, $sobrenome, $nascimento, $cpf, $cep, $telefone, $idUnidade);
 
             if ($stmt->execute() === TRUE) {
-                echo "Sucesso! Aluno cadastrado no banco.";
+                header("Location:cadastrado_sucesso.php");
+                exit;
             } else {
-                echo "Erro no banco: " . $conn->error;
+                header("Location:home.php");
+                exit;
             }
         } else {
-            echo "Erro: O campo nome é obrigatório.";
+            header("Location:home.php");
+            exit;
         }
     }
     $conn->close();
