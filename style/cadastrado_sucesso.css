@@ -1,0 +1,21 @@
+.botao {
+  border: #333131;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 28px;
+  border-radius: 50px;
+  font-family: "League Spartan", sans-serif;
+  color: #333131;
+  background-color: #A4A0A0;
+  border-color: #A4A0A0;
+}
+.botao:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #333131;
+}
+.mg-top-30 {
+  margin-top: 30px;
+}

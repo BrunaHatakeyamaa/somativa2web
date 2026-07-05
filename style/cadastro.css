@@ -1,0 +1,61 @@
+.titulo {
+  font-family: "Ledger", serif;
+  
+}
+
+.form-titulo {
+  margin-bottom: 0;
+  padding-top: 8px;
+}
+
+/* DESABILITA O BOTÃO DO BOOTSTRAP SE O FORMULÁRIO FOR INVÁLIDO */
+.form-horizontal:invalid .btn {
+  background-color: #e6e6e6 !important;
+  color: #a1a1a1 !important;
+  border-color: #adadad !important;
+  cursor: not-allowed !important;       /* Cursor de bloqueado */
+  pointer-events: none !important;      /* DESATIVA O CLIQUE REAL DO MOUSE */
+  opacity: 0.65;
+  box-shadow: none;
+}
+
+.required {
+  color: red;
+}
+
+.form-group label{
+    font-family: "League Spartan", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2B2B2B;
+}
+
+.form-control{
+    background: #EAEAEA;
+    border: none;
+    border-radius: 18px;
+    height: 34px;
+    box-shadow: none;
+    padding: 6px 16px;
+    font-size: 17px;
+    font-family: "League Spartan", sans-serif;
+    color: #333;
+    transition: .2s;
+}
+
+.form-control:focus{
+    background: #EAEAEA;
+    border: none;
+    box-shadow: 0 0 0 2px rgba(19,41,61,.15);
+    outline: none;
+}
+
+select.form-control{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background: #EAEAEA url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='%23333' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E") no-repeat right 15px center;
+
+    cursor: pointer;
+}

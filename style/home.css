@@ -1,0 +1,38 @@
+img {
+  width: 120%;
+  padding-top: 8%;
+  padding-left: 10%;
+  
+}
+
+.botao {
+  border: #333131;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 28px;
+  border-radius: 50px;
+  font-family: "League Spartan", sans-serif;
+  color: #333131;
+  background-color: #A4A0A0;
+  border-color: #A4A0A0;
+}
+.botao:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #333131;
+}
+.text-end {
+  text-align: end;
+}
+.padding-top-50 {
+  padding-top: 50px;
+}
+.texto {
+  padding-right: 10%;
+  padding-top: 10%;
+  font-size: 30px;
+  font-family: "Ledger", serif;
+  color: #333131;
+}
